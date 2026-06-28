@@ -1,0 +1,399 @@
+*{
+    margin : 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /* this create the border and the padding inside the content box instead of outside which helps to see the dimensioins in a more easy manner */
+    border: border-box; 
+}
+
+.navbar{
+    height: 60px; /*defined in the website*/
+    background-color: #0f1111;
+    color : white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.border{ /*this ensures that the logo doesn't move when we apply the hover property to it*/
+    border: 1px solid transparent;
+}
+
+.border:hover{
+    border : 1px solid white;
+}
+
+/* styling of the deliver to and the India along with the location icon */
+
+.add-first{
+    color: #cccccc;
+    font-size: 1rem;
+    margin-left: 18px;
+}
+
+.add-second{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon{ /* this will help to bring the location icon and the India on the same line */
+    display: flex;
+    align-items: center;
+}
+
+/* styling of the search bar of the nav bar */
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 920px;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    padding-left: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-input: hover{
+
+}
+
+.search-icon{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: #febd68;
+    color: black;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+/* styling of the flag icon */
+.nav-flag{
+    display: flex;
+    align-items: flex-end;
+    padding-top: 1em;
+}
+
+.en-text{
+    font-weight: bold;
+}
+
+.arrow-icon{
+    font-weight: lighter;
+}
+
+.outer{
+    display: flex;
+}
+
+/* styling of the signin part of the nav bar */
+.nav-signin{
+    padding-top: 0.5rem;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+}
+
+.signin-first{
+    font-size: 0.75rem;
+}
+
+.signin-second{
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+/* styling of the return component of the nav bar */
+.nav-return{
+    padding-top: 0.5rem;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+}
+
+.return-second{
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.return-first{
+    font-size: 0.75rem;
+}
+
+/* styling of the cart icon */
+.nav-cart{
+    display: flex;
+    padding-top: 0.5rem;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+}
+
+.cart-icon{
+    font-size: 30px;
+}
+
+.cart-text{
+    font-size: 0.9rem ;
+    font-weight: bold;
+    margin-top: 0.8rem;
+}
+
+/* styling of the panel starts from here */
+.panel{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #222f3d;
+    color: white;
+    height: 40px;
+}
+
+.panel-all{
+    padding: 0.5rem;
+}
+
+.panel-ops{
+    display: flex;
+    width: 70%;
+    font-size: 0.9rem;
+}
+
+.panel-ops p{
+    margin-left: 1rem;
+    padding: 0.5rem;
+}
+
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+
+/* styling of the section below the header of the page */
+.hero-section{
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-msg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 96%;
+    height: 40px;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #007185;
+}
+
+/* styling of the product boxes of the site, approximately 8 boxes are present */
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding : 20px 0px 15px;
+    margin-top: 1rem;
+}
+
+.product-img1{
+    background-image: url("box1_image.jpg");
+    background-size: cover;
+    height: 350px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content p{
+    color: #007185;
+}
+
+.product-img2{
+    background-image: url("box2_image.jpg");
+    background-size: cover;
+    height: 350px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.product-img3{
+    background-image: url("box3_image.jpg");
+    background-size: cover;
+    height: 350px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.product-img4{
+    background-image: url("box4_image.jpg");
+    background-size: cover;
+    height: 350px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.product-img5{
+    background-image: url("box5_image.jpg");
+    background-size: cover;
+    height: 350px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.product-img6{
+    background-image: url("box6_image.jpg");
+    background-size: cover;
+    height: 350px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.product-img7{
+    background-image: url("box7_image.jpg");
+    background-size: cover;
+    height: 350px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.product-img8{
+    background-image: url("box8_image.jpg");
+    background-size: cover;
+    height: 350px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* styling of the footer strats from here */
+footer{
+    margin-top: 15px;
+}
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+/* styling of the 2nd part of the footer which contains alot of lists in it */
+.foot-panel2{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+}
+ul a{
+    display: block;
+    color: #dddddd;
+    margin-top: 10px;
+}
+
+ul a:hover{
+    text-decoration: underline;
+}
+
+.foot-panel2 p{
+    font-weight: bold;
+}
+
+ul p{
+    margin-top: 50px;
+}
+
+/* styling of the 3rd part of the footer which contains the logo of amazon */
+.foot-panel3{
+    height: 100px;
+    background-color: #222f3d;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+
+.logo-footer{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+.footer-3div{
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+}
+
+.box1-footer{
+    display: flex;
+    border: 1px solid white;
+    padding: 0.5rem;
+}
+
+.box2-footer{
+    display: flex;
+    border: 1px solid white;
+    padding: 0.5rem;
+}
+
+.box3-footer{
+    display: flex;
+    border: 1px solid white;
+    padding: 0.5rem;
+}
