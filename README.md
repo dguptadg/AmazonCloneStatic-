@@ -8,6 +8,14 @@ This project is a front-end clone of the Amazon India homepage, built as a pract
 
 ---
 
+## Live Demo
+
+View the live project here:
+
+https://dancing-cajeta-4c2c52.netlify.app/
+
+---
+
 ## Features
 
 * Hero banner section
@@ -71,14 +79,6 @@ Through this project, I gained practical experience with:
 <img width="1892" height="822" alt="Screenshot 2026-06-29 163811" src="https://github.com/user-attachments/assets/de15e3fd-b0e2-41f8-a2a7-5856bc43c2d8" />
 
 
-
----
-
-## Live Demo
-
-View the live project here:
-
-**GitHub Pages:** https://dguptadg.github.io/WebsiteEducationalProject/
 
 ---
 
